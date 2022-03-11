@@ -7,3 +7,6 @@ lint:
 	
 sync:
 	npx browser-sync start -s 'src' --files 'src/*.html'
+
+deploy:
+	git git subtree push --prefix src origin gh-pages
