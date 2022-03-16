@@ -6,7 +6,7 @@ lint:
 	npx stylelint ./src/styles/*.css
 	
 sync:
-	npx browser-sync start -s 'src' --files 'src/*.html'
+	npx browser-sync start -s  --files 'src/pages/*.html'
 
 deploy:
 	git subtree push --prefix src origin gh-pages
