@@ -2,11 +2,11 @@ install:
 	npm install
 
 lint:
-	npx htmlhint ./src/*.html
-	npx stylelint ./src/styles/*.css
+	npx htmlhint *.html ./src/pages/*.html
+	npx stylelint ./src/styles/*.css ./src/styles/pages_styles/*.css
 	
-sync:
+start:
 	npx browser-sync start -s  --files 'src/pages/*.html'
 
 deploy:
-	git subtree push --prefix src origin gh-pages
+	git push origin

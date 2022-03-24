@@ -1,5 +1,48 @@
-div {
+:root {
+  --height-block: 100px;
+}
+.container {
+  display: flex;
+  width: 500px;
+  height: var(--height-block);
+  background-color: rgb(170, 170, 170);
+}
+
+.red {
+  background: red;
+}
+
+.green {
+  background: green;
+}
+
+.blue {
+  background: red;
+}
+
+.w-100px {
+  width: 100px;
+}
+
+.w-50px {
   width: 50px;
-  height: 50px;
-  background-color: rgb(211, 164, 106);
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.flex-grow-2 {
+  flex-grow: 2;
+}
+
+.flex-item {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 16px;
+
+  color: white;
+
 }

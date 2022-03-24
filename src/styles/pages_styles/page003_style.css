@@ -1,0 +1,17 @@
+body {  
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 90vw;
+  justify-content: space-around;
+  background: rgb(253, 253, 212);
+}
+
+.flex-item {
+  margin-top: 50px;
+  
+  width: 25vw;
+  background: rgb(240, 240, 240);
+}
