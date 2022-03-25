@@ -4,15 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/reset.css">
     <link rel="stylesheet" href="src/styles/style.css">
     <title>Document</title>
 </head>
 <body>
-    <a href="src/pages/page001.html">Page 1</a>
-    <br>
-    <a href="src/pages/page002.html">Page2</a>
-    <br>
-    <a href="src/pages/page003.html">Page3</a>
-
+    <div class="container">
+        <h1 class="header">Pages</h1>
+        <div class="underline"></div>
+        <section class="page-container">
+            <div>
+                <a class="page-name" href="src/pages/page001.html">Эксперименты c flex</a>                
+                <div class="description">
+                    Карточки сделанные с помощью flex-контейнера.
+                </div>
+            </div>
+            <div>
+                <a class="page-name" href="src/pages/page002.html">Эксперименты с flex</a>                
+                <div class="description">
+                    Изучал, как будет работать flex-grow. Проверял расчёты.
+                </div>
+            </div>
+            <div>
+                <a class="page-name" href="src/pages/page003.html">Эксперименты с flex</a>                
+                <div class="description">
+                    Сделал flex-контейнер, разбил текст на колоники, сделал все "гибко", чтобы посмотреть как все это будет меняться при масштабировании.
+                </div>
+            </div>    
+        </section>        
+    </div>
 </body>
 </html>

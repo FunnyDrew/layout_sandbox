@@ -5,9 +5,12 @@ body {
 .card {
   width: 30vw;
   height: 30vh;
-  background: rgb(73, 153, 245);
+
   margin: 20px;
+
   text-align: center;
+
+  background: rgb(73 153 245);
 }
 
 @media (orientation: landscape) {
@@ -20,6 +23,7 @@ body {
   body {
     flex-direction: column;
   }
+
   .card {
     width: 75vw;
   }

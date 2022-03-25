@@ -1,11 +1,13 @@
 :root {
   --height-block: 100px;
 }
+
 .container {
   display: flex;
   width: 500px;
   height: var(--height-block);
-  background-color: rgb(170, 170, 170);
+
+  background-color: rgb(170 170 170);
 }
 
 .red {
@@ -37,12 +39,11 @@
 }
 
 .flex-item {
-  display:flex;
-  justify-content: center;
+  display: flex;
   align-items: center;
-
-  font-size: 16px;
+  justify-content: center;
 
   color: white;
 
+  font-size: 16px;
 }
